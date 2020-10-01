@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="theme">
+            <h3 onclick="setDarkMode(false)">terang</h3> 
+            <h3 onclick="setDarkMode(true)">gelap</h3>
+        </div>
+        <div id="content">
+        {{- block "main" . }}
+        {{- end }}
+        </div>
+        
+        {{- partial "footer.html" . -}}
+
+<style>
+    #darkmode {
+        background:#091a28 ;
+        color:#ebf4f1 ;
+        transition: background-color 1s;
+    }
+    #tema {
+        display: inline-flex;
+        cursor: pointer;
+    }
+    #theme {
+       float: right; 
+    }
+    hr {
+        border: 1px ridge goldenrod ;
+    }
+</style>
+
+        <script>
+            function setDarkMode (isDark) {
+                if (isDark) {
+                    document.body.setAttribute('id', 'darkmode' ,'ul')
+                } else {
+                    document.body.setAttribute('id', '')
+                }
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Ikhsan N. Huda</title>
+    <link>https://ikhsannhuda.web.app/books/</link>
+    <description>Recent content in Books on Ikhsan N. Huda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Sep 2020 03:50:58 +0700</lastBuildDate>
+    
+	<atom:link href="https://ikhsannhuda.web.app/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Answer</title>
+      <link>https://ikhsannhuda.web.app/books/the-answer/</link>
+      <pubDate>Wed, 02 Sep 2020 03:50:58 +0700</pubDate>
+      
+      <guid>https://ikhsannhuda.web.app/books/the-answer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The War of Art</title>
+      <link>https://ikhsannhuda.web.app/books/the-war-of-art/</link>
+      <pubDate>Wed, 02 Sep 2020 03:00:36 +0700</pubDate>
+      
+      <guid>https://ikhsannhuda.web.app/books/the-war-of-art/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
