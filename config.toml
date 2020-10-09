@@ -1,7 +1,6 @@
 baseURL = "https://ikhsannhuda.web.app/"
 languageCode = "en-us"
 title = "Ikhsan N. Huda"
-theme = "nstatis"
 [permalinks]
     blog       = ":slug"
     books      = ":slug"
