@@ -1,6 +1,6 @@
 ---
 title: The best teacher i never had
-description: "Guru terbaik.." 
+description: Guru terbaik..
 date: 2020-09-02T02:58:32.000+07:00
 
 ---
